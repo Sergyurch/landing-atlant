@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>ЖК Атлант</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<section id="main" class="container-fluid pb-4">
+			<div class="row absolute w-100 m-0">
+				<nav class="navbar navbar-expand-lg navbar-dark col-12 py-sm-4 px-sm-5">
+					<a class="navbar-brand text-uppercase display-1" href="#main">ЖК Атлант</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="#">Цены</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="#">Инфраструктура</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="#">Гарантии</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-uppercase" href="#">Бонусы</a>
+							</li>
+						</ul>
+						<div class="mr-lg-3">
+							<p class="mb-0 text-white">8 (800) 55-55-55</p>
+						</div>
+						<button class="btn btn-success">Заказать звонок</button>
+					</div>
+				</nav>
+			</div>
+			<div class="row justify-content-end">
+				<div class="col-md-7 col-lg-5 p-sm-5">
+					<div class="p-3 border-radius-lg bg-main-text rounded-lg">
+						<h1 class="font-weight-bold text-center">Уютные квартиры от застройщика с развитой инфраструктурой со <span class="text-danger">скидкой 20%</span></h1>
+						<p class="text-center">только этой зимой квартиры по самым соблазнительным ценам</p>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-end p-3 px-sm-5 pb-sm-5">
+				<div class="col-lg-8 col-xl-6 d-md-flex justify-content-between align-content-center px-4 py-3 bg-success rounded-lg">
+					<p class="m-0 text-white">Адрес дома: г.Калининград, ул. Карамзина</p>
+					<a href="#" id="show-map"><span class="icon-location"></span>Показать карту</a>
+				</div>
+			</div>
+			<div class="map-container px-2">
+				<div id="map" class="m-auto">
+					<div class="map-header p-1 text-right rounded-top">
+						<button id="cls-map" class="btn btn-danger"><span class="icon-cross"></span></button>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36890.614547498146!2d20.48703008438497!3d54.69795055375344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x131bd0f4df3d1a7b!2sAtlant!5e0!3m2!1suk!2sua!4v1624783734418!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</section>
+		<section id="prices" class="container-fluid py-3 p-sm-5">
+			<div class="row">
+				<div class="col-md-4 py-3">
+					<p class="text-center">1 комнатная квартира от 1,5 млн. руб.</p>
+					<!-- <a href="#" class="d-inline-block w-100 text-center text-warning">Получить список с ценами</a> -->
+					<button class="btn btn-block btn-info text-warning rounded-0">Получить список с ценами</button>
+				</div>
+				<div class="col-md-4 py-3">
+					<p class="text-center">1 комнатная квартира от 1,5 млн. руб.</p>
+					<!-- <a href="#" class="d-inline-block w-100 text-center text-warning">Получить список с ценами</a> -->
+					<button class="btn btn-block btn-info text-warning rounded-0">Получить список с ценами</button>
+				</div>
+				<div class="col-md-4 py-3">
+					<p class="text-center">1 комнатная квартира от 1,5 млн. руб.</p>
+					<!-- <a href="#" class="d-inline-block w-100 text-center text-warning">Получить список с ценами</a> -->
+					<button class="btn btn-block btn-info text-warning rounded-0">Получить список с ценами</button>
+				</div>
+			</div>
+		</section>
+		<section id="infrastructure" class="container-fluid py-3 p-sm-5">
+			<div class="row justify-content-between">
+				<div class="col-md-4 py-3 text-center">
+					<img src="images/earth.jpg" class="mw-100" alt="Земля">
+				</div>
+				<div class="col-md-8 col-xl-7 py-3">
+					<h2 class="font-weight-bold text-center text-uppercase mb-4">Развитая инфраструктура</h2>
+					<ul class="text-center p-0">
+						<li>- 100 метров до школы</li>
+						<li>- 50 метров до детсада</li>
+						<li>- 3 магазина в непосредственной близости</li>
+					</ul>
+					<p class="text-danger text-center">Купите этой зимой однокомнатную квартиру со скидкой 20%</p>
+					<div class="text-right">
+						<button class="btn btn-success rounded-0">Получить скидку</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script>
+			const map = $('.map-container');
+
+			$('#show-map').click(function() {
+				event.preventDefault;
+				map.fadeIn();
+			});
+
+			$('#cls-map').click(function() {
+				map.fadeOut();
+			});
+		</script>
+	</body>
+</html>
